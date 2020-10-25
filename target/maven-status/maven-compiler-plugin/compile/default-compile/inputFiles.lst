@@ -1,0 +1,8 @@
+/home/moises/Downloads/poc/src/main/java/com/example/demo/config/log/LoggerConfig.java
+/home/moises/Downloads/poc/src/main/java/com/example/demo/config/error/ConfiguracionAdvices.java
+/home/moises/Downloads/poc/src/main/java/com/example/demo/config/security/WebSecurityConfig.java
+/home/moises/Downloads/poc/src/main/java/com/example/demo/config/error/GlobalErrorWebExceptionHandler.java
+/home/moises/Downloads/poc/src/main/java/com/example/demo/config/security/JwtWebFilter.java
+/home/moises/Downloads/poc/src/main/java/com/example/demo/model/dto/GenerarPrecioIvaIn.java
+/home/moises/Downloads/poc/src/main/java/com/example/demo/DemoApplication.java
+/home/moises/Downloads/poc/src/main/java/com/example/demo/model/func/AplicarIva.java

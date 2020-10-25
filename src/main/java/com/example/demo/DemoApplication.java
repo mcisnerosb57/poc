@@ -35,8 +35,12 @@ public class DemoApplication implements ApplicationContextInitializer<GenericApp
 	    SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@Bean()
+	@Bean("generar")
 	public Function<GenerarPrecioIvaIn, String> generar() {
+		return precio -> new AplicarIva().apply(precio);
+	}
+	@Bean("generarb")
+	public Function<GenerarPrecioIvaIn, String> generarb() {
 		return precio -> new AplicarIva().apply(precio);
 	}
 
